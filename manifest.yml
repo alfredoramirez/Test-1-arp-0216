@@ -1,0 +1,10 @@
+applications:
+- path: target/JavaCloudantApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: Test-1-arp-0216
+  host: Test-1-arp-0216
+  disk_quota: 1024M
+  services:
+  - Test-1-arp-0216-cloudantNoSQLDB
